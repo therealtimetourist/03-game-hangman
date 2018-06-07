@@ -159,6 +159,9 @@ var objGame = {
 		this.rnd = 0;
 		this.userGuess = "";
 		this.correctWord = [];
+		this.pglettersUsed.textContent = "";
+		this.pgguessRemain.textContent = this.guessCount;
+
 	},
 
 	gamePlay: function(){
